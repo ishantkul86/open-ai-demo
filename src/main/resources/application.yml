@@ -1,0 +1,12 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: open-ai-demo
+  ai:
+    openai:
+      api-key: <your api key>
+      chat:
+        options:
+          model: gpt-4o-mini
+
