@@ -5,8 +5,9 @@ spring:
     name: open-ai-demo
   ai:
     openai:
-      api-key: <your api key>
+      api-key: ${OPENAI_API_KEY1}
       chat:
         options:
           model: gpt-4o-mini
-
+  config:
+    import: guard-rules.yml
